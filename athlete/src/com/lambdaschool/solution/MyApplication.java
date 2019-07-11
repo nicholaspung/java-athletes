@@ -8,10 +8,11 @@ public class MyApplication implements Processor
         this.athlete = athlete;
     }
 
+    @Override
     public void displayAthlete()
     {
         System.out.println("************");
-        System.out.println("Athlete");
+        athlete.displayAthlete();
         System.out.println("************\n");
     }
 }
